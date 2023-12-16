@@ -1,6 +1,6 @@
 # Bem-Vindo(a) ao Meu Portfólio!
 
-Olá! Sou Meriana, e vim para compartilhar  com você meu portfólio, um espaço que reflete minha jornada no mundo do desenvolvimento. 
+Olá! Sou Mariana, e vim para compartilhar  com você meu portfólio, um espaço que reflete minha jornada no mundo do desenvolvimento. 
 
 Este repositório contém o código-fonte que sustenta o meu portfólio online.
 
