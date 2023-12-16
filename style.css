@@ -1,0 +1,125 @@
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+   display: flex; 
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600 ;
+    background-color: hotpink;
+    border: 0;
+    border-radius: 30px ;
+    cursor: pointer;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(255, 105, 180)
+} 
+
+/* estilo do cabeçalho*/
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color:rgb(176, 172, 172);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color:black;
+    transform:scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li{
+    margin-right: 20px;
+    display: inline-block;
+    padding: 0% 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600 ;
+    background-color: hotpink;
+    border: 0;
+    border-radius: 30px ;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(255, 105, 180)
+}
+
+/*ESTILO TOPO SITE*/
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color:black;
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: rgb(232, 23, 127);
+}
+
+.topo-do-site .txt-topo-site p{
+    color: black;
+    line-height: 50px;
+
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top:30%
+    }
+}
